@@ -39,19 +39,13 @@
 }
 .video{
     
-    bottom: 0;
-    right:  0;
-    z-index: -1;
+   width: 100%;
+    height: auto;
+    object-fit: cover;
 }
-@media (min-aspect-ratio: 16/9) {
-    .video{
-        width: auto;
-        height: auto;
-    }
-}
-@media (max-aspect-ratio: 16/9) {
-    .video{
-        width: auto;
-        height: auto;
+
+@media (max-width: 768px) {
+    .texto-central {
+        font-size: 1.2em;
     }
 }
